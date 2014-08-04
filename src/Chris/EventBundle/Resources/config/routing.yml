@@ -1,3 +1,3 @@
 event_homepage:
-    path:     /yup/{name}
+    path:     /hello/{name}/{count}
     defaults: { _controller: EventBundle:Default:index }

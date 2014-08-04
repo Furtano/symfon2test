@@ -1,1 +1,13 @@
-Hello {{ name }}!
+{% extends '::base.html.twig' %}
+
+{% block title %}
+yupp
+{% endblock %}
+
+{% block body %}
+    {% for i in 1..count %}
+
+    Hello {{ name }} #{{ i }}! <br/>
+
+    {% endfor %}
+{% endblock %}
